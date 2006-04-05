@@ -1,0 +1,15 @@
+<library file=stubs/*.cc name=testTrackPropagationNavGeometry>
+</library>
+
+<use name=TrackPropagation/NavGeometry>
+
+<bin file=SingleVolumeTest.cpp>
+  <lib name=testTrackPropagationNavGeometry>
+  <use name=clhep>
+</bin>
+
+<bin file=DoubleVolumeTest.cpp>
+  <lib name=testTrackPropagationNavGeometry>
+  <use name=clhep>
+</bin>
+
