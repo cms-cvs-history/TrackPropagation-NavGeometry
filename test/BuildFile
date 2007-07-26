@@ -18,10 +18,4 @@
   <use name=root>
 </bin>
 
-<bin file=PropagatorTestInTrackerVolume.cpp>
-  <lib name=testTrackPropagationNavGeometry>
-  <use name=TrackPropagation/RungeKutta>
-  <use name=clhep>
-  <use name=root>
-</bin>
 
